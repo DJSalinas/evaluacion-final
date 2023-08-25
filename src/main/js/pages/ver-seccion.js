@@ -60,7 +60,7 @@ const VerSeccionPage = () => {
             </table>
 
             <hr />
-            <Link to={`/ver-seccion/${id}/nuevo-matricula`}>Nuevo Alumno</Link> |
+            <Link to={`/ver-seccion/${id}/nuevo-matricula`}>Nuevo Registro</Link> |
             <Link to="/">Volver</Link>
         </>
     )

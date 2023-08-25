@@ -75,7 +75,7 @@ public class Alumno {
 
 	@Override
 	public String toString() {
-		return "Instrumento{" +
+		return "Alumno{" +
 			"id=" + id +
 			", nombre='" + nombre + '\'' +
 			", apellido='" + apellido + '\'' +

@@ -41167,45 +41167,16 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Bienvenidos a IDAT xD"), /*#__PURE__*/React.createElement("div", {
-        style: {
-          "width": "100%",
-          "display": "flex"
-        }
-      }, /*#__PURE__*/React.createElement("div", {
-        style: {
-          "width": "calc(100% / 3)"
-        }
-      }, /*#__PURE__*/React.createElement(Titulo, {
-        entidad: "Alumnos",
-        emoji: "\uD83D\uDC68\u200D\uD83C\uDF93"
-      }), /*#__PURE__*/React.createElement(AlumnoList, {
-        alumnos: this.state.alumnos
-      }), /*#__PURE__*/React.createElement(Link, {
-        to: "/nuevo-alumno"
-      }, "Nuevo Alumno")), /*#__PURE__*/React.createElement("div", {
-        style: {
-          "width": "calc(100% / 3)"
-        }
-      }, /*#__PURE__*/React.createElement(Titulo, {
-        entidad: "Cursos",
-        emoji: "\uD83D\uDCDD"
-      }), /*#__PURE__*/React.createElement(CursoList, {
-        cursos: this.state.cursos
-      }), /*#__PURE__*/React.createElement(Link, {
-        to: "/nuevo-curso"
-      }, "Nuevo Curso")), /*#__PURE__*/React.createElement("div", {
+      return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Bienvenidos a IDAT"), /*#__PURE__*/React.createElement("div", {
         style: {
           "width": "calc(100% / 3)"
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Seccion",
-        emoji: "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA4"
+        emoji: "\uD83D\uDC69\uD83C\uDFFC"
       }), /*#__PURE__*/React.createElement(SeccionList, {
         secciones: this.state.secciones
-      }), /*#__PURE__*/React.createElement(Link, {
-        to: "/nueva-seccion"
-      }, "Nueva Seccion"))));
+      })));
     }
   }]);
   return HomePage;
@@ -41747,7 +41718,7 @@ var VerSeccionPage = function VerSeccionPage() {
     }, /*#__PURE__*/React.createElement("td", null, matricula.ALUMNO), /*#__PURE__*/React.createElement("td", null, matricula.CURSO));
   }))), /*#__PURE__*/React.createElement("hr", null), /*#__PURE__*/React.createElement(Link, {
     to: "/ver-seccion/".concat(id, "/nuevo-matricula")
-  }, "Nuevo Alumno"), " |", /*#__PURE__*/React.createElement(Link, {
+  }, "Nuevo Registro"), " |", /*#__PURE__*/React.createElement(Link, {
     to: "/"
   }, "Volver"));
 };
